@@ -20,8 +20,7 @@ static class Person {
 
              Person p1 = new Person();
              p1.name ="Sakshi";
-             Person p2=p1;
-             System.out.println("\nBefore changing p2.name");
+             Person p2=p1;System.out.println("\nBefore changing p2.name");
             System.out.println("p1.name = " +p1.name);
             System.out.println("p2.name = " +p2.name);
             p2.name="Priya";
